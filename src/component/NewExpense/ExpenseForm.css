@@ -1,0 +1,52 @@
+.new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    margin-bottom: 1vh;
+    text-align:left;
+    /* width:30%; */
+  }
+  
+  .new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5vh;
+    display: block;
+  }
+  
+  .new-expense__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 27vw;
+    max-width: 90%;
+  }
+  
+  .new-expense__actions {
+    text-align: right;
+  }
+
+  .new-expense__actions button{
+    margin-top:3vh;
+  }
+
+
+@media (max-width:550px) {
+  .new-expense__controls{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .new-expense__control{
+    width:70%;
+  } 
+
+  .new-expense__control input{
+    width:100%;
+  }
+
+  .new-expense__actions {
+      text-align:center;
+  }
+}

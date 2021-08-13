@@ -1,0 +1,9 @@
+.expenses{
+    display: block;
+    margin: 0px auto;
+    padding:2vh;
+    /* background-color:rgb(37, 37, 37); */
+    background-color:#77c5e4;
+    width:60%;
+
+}
